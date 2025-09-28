@@ -12,6 +12,8 @@ CREATE TABLE IF NOT EXISTS infts (
     tag TEXT,
     cid TEXT,
     traits_json TEXT,
+    description TEXT,
+          nfid INTEGER,
     score REAL DEFAULT 0,
     created_at TEXT
 )
